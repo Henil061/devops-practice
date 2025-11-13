@@ -1,0 +1,76 @@
+notes.txt
+Task 1: Short Notes
+
+
+1. What is DevOps? → Explain in 4–5 lines what DevOps means and why it’s used. 
+Ans:
+ DevOps is a set of practices that combines software development (Dev) and IT operations (Ops) to improve collaboration and efficiency in delivering software. It focuses on automation, continuous integration, and continuous delivery (CI/CD) to speed up development cycles and ensure high-quality releases. DevOps helps organizations deliver updates faster, reduce errors, and improve customer satisfaction by enabling a more agile and responsive workflow.
+
+2. 7 Stages of DevOps Lifecycle → List and briefly explain each stage.
+Ans:
+ The DevOps Lifecycle consists of seven stages, each ensuring smooth software development and delivery:
+Plan:
+ Teams define project goals, requirements, and timelines using tools like Jira or Trello.
+
+
+Code:
+ Developers write and manage source code using version control systems such as Git.
+
+
+Build:
+ Source code is compiled, integrated, and built into executable files using tools like Maven or Jenkins.
+
+
+Test:
+ Automated testing ensures code quality, functionality, and performance before deployment.
+
+
+Release:
+ The tested code is prepared and released into production using CI/CD pipelines.
+
+
+Deploy:
+ The application is deployed to production environments with minimal downtime using tools like Docker or Kubernetes.
+
+
+Operate & Monitor:
+ System performance is tracked, issues are identified, and feedback is gathered to improve future releases.
+
+
+3.Full form of CI/CD + One Real-Life Example → Write the full form of CI/CD and explain a small example (e.g., how an app automatically updates after code changes).
+Ans:
+ Full Form:
+CI → Continuous Integration
+
+
+CD → Continuous Delivery (or Continuous Deployment)
+
+
+Example:
+ Imagine a shopping app like Amazon. When developers add a new feature (e.g., “Dark Mode”) and push the code to GitHub, the CI system (like Jenkins) automatically tests and integrates the new code. Once all tests pass, the CD system automatically deploys the updated version of the app to the production server. Users then instantly get the new feature without manual updates or downtime.
+4.Tools Discussed in Class → Write what each tool is used for in simple terms.
+Ans:
+ Here are some common DevOps tools and their uses in simple terms:
+Git: Used for version control – helps developers track and manage changes in code.
+
+
+Jenkins: A CI/CD automation tool that builds, tests, and deploys applications automatically.
+
+
+Docker: Used for containerization – packages apps with all dependencies so they run anywhere.
+
+
+Kubernetes: A container orchestration tool that manages, scales, and automates deployment of containers.
+
+
+Ansible: Used for configuration management – automates setting up servers and software.
+
+
+Nagios / Prometheus: Tools for monitoring – track system health and performance.
+
+
+AWS / Azure: Cloud platforms used to host and manage applications and infrastructure online.
+
+
+
+
